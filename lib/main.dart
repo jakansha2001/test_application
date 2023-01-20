@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          title: const Text('Dash\'s Day Out!'),
         ),
-        body:  Center(
+        body: Center(
           child: Image.asset('assets/dash.png'),
         ),
       ),
