@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:test_application/constants.dart';
+
 
 void main() => runApp(const MyApp());
 
@@ -14,7 +16,9 @@ class MyApp extends StatelessWidget {
           title: const Text('Dash\'s Day Out!'),
         ),
         body: Center(
-          child: Image.asset('assets/dash.png'),
+          child: Image.asset(
+            Assets.dash.path,
+          ),
         ),
       ),
     );
